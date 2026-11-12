@@ -11,6 +11,7 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/tvTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Обсуждения"
@@ -20,21 +21,6 @@
             android:gravity="center"
             android:paddingTop="16dp"
             android:paddingBottom="16dp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Lucifer"
-            android:textColor="#FFFFFF"
-            android:textSize="12sp"
-            android:paddingStart="24dp"
-            android:paddingTop="16dp"
-            android:paddingBottom="16dp" />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#2B70A8" />
 
         <TextView
             android:layout_width="match_parent"
@@ -54,7 +40,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="LOST"
+            android:text="Jessica Jones"
             android:textColor="#FFFFFF"
             android:textSize="12sp"
             android:paddingStart="24dp"
@@ -69,7 +55,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="The Magicians"
+            android:text="Lucifer"
             android:textColor="#FFFFFF"
             android:textSize="12sp"
             android:paddingStart="24dp"
